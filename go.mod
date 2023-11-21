@@ -8,7 +8,7 @@ require (
 	github.com/hashicorp/go-retryablehttp v0.7.2
 	github.com/stretchr/testify v1.8.1
 	golang.org/x/sync v0.0.0-20201020160332-67f06af15bc9
-	golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2
+	golang.org/x/xerrors v0.0.0-20231012003039-104605ab7028
 	k8s.io/utils v0.0.0-20231121161247-cf03d44ff3cf
 	modernc.org/sqlite v1.20.3
 )

@@ -5,7 +5,7 @@ go 1.18
 require (
 	github.com/PuerkitoBio/goquery v1.5.1
 	github.com/cheggaaa/pb/v3 v3.1.4
-	github.com/hashicorp/go-retryablehttp v0.7.2
+	github.com/hashicorp/go-retryablehttp v0.7.5
 	github.com/spf13/cobra v1.8.0
 	github.com/stretchr/testify v1.8.1
 	golang.org/x/sync v0.5.0

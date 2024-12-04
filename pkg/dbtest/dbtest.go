@@ -1,9 +1,8 @@
 package dbtest
 
 import (
-	"testing"
-
 	"github.com/khulnasoft-lab/tunnel-java-db/pkg/types"
+	"testing"
 
 	"github.com/stretchr/testify/require"
 

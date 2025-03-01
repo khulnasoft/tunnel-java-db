@@ -27,7 +27,7 @@ type Builder struct {
 
 func NewBuilder(db db.DB, meta db.Client, clock clock.Clock) Builder {
 	if clock == nil {
-		clock = clock.RealClock{} // fallback to real clock if none is provided
+		clock = clock.NewRealClock() // Correct initialization for RealClock
 	}
 	return Builder{
 		db:    db,

@@ -25,14 +25,11 @@ type Builder struct {
 	clock clock.Clock
 }
 
-func NewBuilder(db db.DB, meta db.Client, clock clock.Clock) Builder {
-	if clock == nil {
-		clock = clock.NewRealClock() // Correct initialization for RealClock
-	}
+func NewBuilder(db db.DB, meta db.Client) Builder {
 	return Builder{
 		db:    db,
 		meta:  meta,
-		clock: clock,
+		clock: clock.RealClock{}, // Directly use RealClock
 	}
 }
 
